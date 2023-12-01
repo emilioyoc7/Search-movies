@@ -1,0 +1,36 @@
+.centro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  outline: none; 
+}
+
+
+input:hover,
+input:focus {
+  border-color: #cd9a10; 
+}
+
+h1 {
+  margin-left: 3%;
+}
+
+.imagen-con-efecto {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-right: 20px;
+}
+
+
+.imagen-con-efecto:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 4px 8px rgb(243, 159, 14);
+}

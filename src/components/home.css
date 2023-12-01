@@ -1,0 +1,32 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 16px; 
+  margin-top: 30px;
+}
+
+.movie-item {
+  margin-bottom: 16px;
+  margin-left: auto;
+}
+
+
+.imagen-con-efecto {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-right: 20px;
+}
+
+
+.imagen-con-efecto:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 4px 8px rgb(243, 159, 14);
+}
+
+.box{
+  width: 100;
+}
+.box-movie {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
